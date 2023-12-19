@@ -1,0 +1,38 @@
+.container {
+   max-width: 1200px;
+   margin: auto;
+   border: 2px solid black;
+   padding: 10px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+   "Lucida Sans", Arial, sans-serif;;
+}
+.div1 {
+    padding: 0px 50px;
+}
+.div2 {
+    height: 100%;
+    max-height: 90vh;
+    background-color: yellow;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    color: #4c665d;
+}
+button {
+    padding: 10px 50px;
+    margin-top: 30px;
+    border: 0;
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+}
+img {
+    width: 70%;
+    height: 100%;
+}

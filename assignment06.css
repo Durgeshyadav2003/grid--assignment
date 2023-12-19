@@ -1,0 +1,52 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.section-1 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: aqua;
+    border: 3px solid black;
+    padding: 15px;
+}
+div {
+    padding: 20px 10px;
+    border: 2px dotted black;
+    text-align: center;
+    background-color: #89e2e2;
+}
+.row1{
+padding: 40px 0px;
+font-size: large;
+font-weight: bold;
+background-color: orange;
+}
+.weekname {
+    background-color: violet;
+    font-size: large;
+    font-weight: bold;
+}
+.col-span-end {
+    grid-column: 7/9;
+    background-color: #e33754;
+    font-weight: bold;
+}
+.col-span-start {
+    grid-column: 2/4;
+    background-color: grey;
+    font-weight: bold;
+}
+.green-color {
+    background-color: green;
+    font-size: large;
+    font-weight: bold;
+}
+.lunch {
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    background-color: yellow;
+}

@@ -1,0 +1,58 @@
+.section {
+    width: 90%;
+    height: 130vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px 0px 0px 85px;
+    grid-gap: 50px;
+}
+   
+h1 {
+    color: #cbc8c8;
+    padding: 0px;
+    text-align: left;
+    font-size: 39px;
+    position: relative;
+    top: 20px;
+    left: 35px;
+    font-weight: lighter;
+}
+body {
+    background-color: #1f1f1f;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.div  {
+    border-radius: 20px;
+    text-align: center;
+}
+.section div p {
+    margin-top: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+  .div1 {
+    background-color: #8D3DAF;
+  } 
+  .div2 {
+    background-color: #FF6666;
+  }
+  .div3 {
+    background-color: #E07C24;
+  }
+  .div4 {
+    background-color: #03C6C7;
+  }
+   .div5 {
+    background-color: #758283;
+   }
+   .div6 {
+    background-color: #CAD5E2;
+   }
+   .div7 {
+    background-color: #E03B8B;
+   }
+  .div8 {
+    background-color: #35BDD0;
+}
+  
